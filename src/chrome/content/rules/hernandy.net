@@ -1,0 +1,14 @@
+<ruleset name="Hernandy.net" default_off="mismatch">
+
+	<!--	www.hernandy.net	-->
+
+	<target host="hernandy.net"/>
+	<target host="www.hernandy.net"/>
+	<target host="hernandy.com"/>
+	<target host="www.hernandy.com"/>
+
+	<securecookie host="^hernandy\.net$" name=".+"/>
+
+	<rule from="^http://(?:www\.)?hernandy\.(?:com|net)/" to="https://www.hernandy.net/"/>
+
+</ruleset>
