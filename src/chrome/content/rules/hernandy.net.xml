@@ -1,0 +1,10 @@
+<ruleset name="Hernandy.net">
+
+	<target host="hernandy.net" />
+	<target host="www.hernandy.net" />
+	<target host="blog.hernandy.net" />
+
+	<rule from="^http://(www\.)?hernandy\.net/"
+		to="https://blog.hernandy.net/" />
+
+</ruleset>
